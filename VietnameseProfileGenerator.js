@@ -121,8 +121,7 @@ class VietnameseProfileGenerator {
         
         return {
             last: ln,
-            middle: mn,
-            first: fn,
+            first: mn + fn,
             gender: gender,
             day: dob.getDate(),
             month: dob.getMonth() + 1,
